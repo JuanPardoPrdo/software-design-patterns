@@ -48,8 +48,8 @@ En Java tenemos acceso a la clase Observer mediante [java.util.Observer](http://
 * Configurar de manera dinámica un componente de la Vista, envés de estáticamente durante el tiempo de compilación.
 * Un objeto debe ser capaz de notificar a otros objetos sin que estos objetos estén fuertemente acoplados.
 
-**Estructura**
-* ![UML Patrón Observer](https://github.com/JuanPardoPrdo/software-design-patterns/blob/main/src/observer/pattern/structure.png)
+**Estructura**__
+![UML Patrón Observer](https://github.com/JuanPardoPrdo/software-design-patterns/blob/main/src/observer/pattern/structure.png)
 
 **Ejemplos:**
 
