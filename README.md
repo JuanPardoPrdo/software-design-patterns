@@ -49,7 +49,7 @@ En Java tenemos acceso a la clase Observer mediante [java.util.Observer](http://
 * Un objeto debe ser capaz de notificar a otros objetos sin que estos objetos estén fuertemente acoplados.
 
 **Estructura**
-![UML Patrón Observer](https://github.com/JuanPardoPrdo/software-design-patterns/blob/main/src/observer/pattern/structure.png)
+* ![UML Patrón Observer](https://github.com/JuanPardoPrdo/software-design-patterns/blob/main/src/observer/pattern/structure.png)
 
 **Ejemplos:**
 
