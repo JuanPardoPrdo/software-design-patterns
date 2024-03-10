@@ -1,4 +1,4 @@
-# Patrones de Diseño en Java.
+# Patrones de Diseño.
 Contiene un listado de los patrones de diseño con diagramas UML y ejemplos de código en Java.
 
 ## Introducción.
@@ -8,7 +8,7 @@ Los patrones de diseño son soluciones elegantes, comprobadas y estándares a pr
 ## <a name="lista-de-patrones">Lista de Patrones de Diseño.</a>
 A continuación se muestran los patrones agrupados por su clasificación.
 
-### Patrones Creacionales (Creational Patterns)
+### Patrones Creacionales (Creational Patterns).
 
 Proporcionan mecanismos de creación de objetos que incrementan la flexibilidad y la reutilización de código existente.
 
@@ -16,7 +16,7 @@ Proporcionan mecanismos de creación de objetos que incrementan la flexibilidad 
 * [Abstract Factory](#abstract-factory)
 * [Builder](#builder)
 
-### Patrones Estructurales (Structural Patterns)
+### Patrones Estructurales (Structural Patterns).
 
 Permiten ensamblar objetos y clases en estructuras más grandes a la vez que se mantiene la flexibilidad y eficiencia de la estructura.
 
@@ -24,7 +24,7 @@ Permiten ensamblar objetos y clases en estructuras más grandes a la vez que se 
 * [Decorator](#decorator)
 * [Facade](#facade)
 
-### Patrones de Comportamiento (Behavioral Patterns)
+### Patrones de Comportamiento (Behavioral Patterns).
 
 Se encargan de la comunicación efectiva y la asignación de responsabilidades entre objetos.
 
