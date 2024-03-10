@@ -52,7 +52,7 @@ En Java tenemos acceso a la clase Observer mediante [java.util.Observer](http://
 
 El ejemplo de Subasta presenta una variante distinta de muchas fuentes en Internet de este patrón, usaremos una clase *Evento* para controlar los sucesos a los que los *Observers* responderan.
 
-* [Subasta](https://github.com/LuisBurgos/design-patterns/tree/master/src/observer/examples/auction)
+* [Subasta](https://github.com/JuanPardoPrdo/software-design-patterns/tree/master/src/observer/examples/auction)
 
 ## <a name="factory">Factory o Factory Method</a> [&#8593;](#lista-de-patrones)
 
@@ -67,8 +67,8 @@ Crear objetos en una clase usando un método factory es más flexible que crear 
 
 **Ejemplos:**
 
-* [Carros](https://github.com/LuisBurgos/design-patterns/tree/master/src/factory/examples/cars)
-* [Naves](https://github.com/LuisBurgos/design-patterns/tree/master/src/factory/examples/ships)
+* [Carros](https://github.com/JuanPardoPrdo/software-design-patterns/tree/master/src/factory/examples/cars)
+* [Naves](https://github.com/JuanPardoPrdo/software-design-patterns/tree/master/src/factory/examples/ships)
 
 ## <a name="abstract-factory">Abstract Factory</a> [&#8593;](#lista-de-patrones)
 
@@ -84,8 +84,8 @@ Es una jerarquía que encapsula muchas *familias* posibles y la creación de un 
 
 **Ejemplos:**
 
-* [Ovnis](https://github.com/LuisBurgos/design-patterns/tree/master/src/abstractfactory/examples/ufo)
-* [El Reino](https://github.com/LuisBurgos/design-patterns/tree/master/src/abstractfactory/examples/kingdom)
+* [Ovnis](https://github.com/JuanPardoPrdo/software-design-patterns/tree/master/src/abstractfactory/examples/ufo)
+* [El Reino](https://github.com/JuanPardoPrdo/software-design-patterns/tree/master/src/abstractfactory/examples/kingdom)
 
 ## <a name="composite">Composite</a> [&#8593;](#lista-de-patrones)
 
@@ -101,8 +101,8 @@ entre la composición de objetos y su uso
 individual.
 
 **Ejemplos:**
-* [Menu](https://github.com/LuisBurgos/design-patterns/tree/master/src/composite/examples/menu)
-* [Sistema de Archivos](https://github.com/LuisBurgos/design-patterns/tree/master/src/composite/examples/directories)
+* [Menu](https://github.com/JuanPardoPrdo/software-design-patterns/tree/master/src/composite/examples/menu)
+* [Sistema de Archivos](https://github.com/JuanPardoPrdo/software-design-patterns/tree/master/src/composite/examples/directories)
 * [Cartas](https://github.com/iluwatar/java-design-patterns/tree/master/composite/src/main/java/com/iluwatar/composite) (Externo).
 
 
@@ -122,10 +122,10 @@ A diferencia de otros patrones creacionales que construyen productos de una sola
 * Ocultar la creación de las partes de un objeto del *cliente*, de esta manera no existe dependencia entre el *cliente* y las partes.
 
 **Ejemplos:**
-* [Heroes](https://github.com/LuisBurgos/design-patterns/tree/master/src/builder/examples/heroes) (basado en el siguiente [proyecto](https://github.com/iluwatar/java-design-patterns/tree/master/builder/src/main/java/com/iluwatar/builder))
-* [Pizza](https://github.com/LuisBurgos/design-patterns/tree/master/src/builder/examples/pizza)
-* [Robots](https://github.com/LuisBurgos/design-patterns/tree/master/src/builder/examples/robots)
-* [Comida rápida](https://github.com/LuisBurgos/design-patterns/tree/master/src/builder/examples/fastfood)
+* [Heroes](https://github.com/JuanPardoPrdo/software-design-patterns/tree/master/src/builder/examples/heroes) (basado en el siguiente [proyecto](https://github.com/iluwatar/java-design-patterns/tree/master/builder/src/main/java/com/iluwatar/builder))
+* [Pizza](https://github.com/JuanPardoPrdo/software-design-patterns/tree/master/src/builder/examples/pizza)
+* [Robots](https://github.com/JuanPardoPrdo/software-design-patterns/tree/master/src/builder/examples/robots)
+* [Comida rápida](https://github.com/JuanPardoPrdo/software-design-patterns/tree/master/src/builder/examples/fastfood)
 
 
 ## <a name="decorator">Decorator</a> [&#8593;](#lista-de-patrones)
@@ -134,14 +134,14 @@ Extender la funcionalidad de los objetos se puede hacer de forma estática en nu
 
 **Propósito:** Adjuntar responsabilidades adicionales a un objeto de forma **dinámica**. Los *decoradores* proporcionan una alternativa flexible para ampliar la funcionalidad.
 
-**Aplicación:** Usamos el patrón [Decorator...](https://github.com/LuisBurgos/design-patterns/tree/master/src/decorator/pattern)
+**Aplicación:** Usamos el patrón [Decorator...](https://github.com/JuanPardoPrdo/software-design-patterns/tree/master/src/decorator/pattern)
 * Cuando necesitamos añadir o eliminar dinámicamente las responsabilidades a un objeto, sin afectar a otros objetos.
 * Cuando queremos tener las ventajas de la *Herencia* pero necesitemos añadir funcionalidad durante el tiempo de ejecución. Es más flexible que la *Herencia*,
 * Simplificar el código agregando funcionalidades usando muchas clases diferentes.
 * Evitar sobreescribir código viejo agregando, envés, código nuevo.
 
 **Ejemplos:**
-* [Pizzas](https://github.com/LuisBurgos/design-patterns/tree/master/src/decorator/examples/pizzas)
+* [Pizzas](https://github.com/JuanPardoPrdo/software-design-patterns/tree/master/src/decorator/examples/pizzas)
 
 ## <a name="facade">Facade</a> [&#8593;](#lista-de-patrones)
 
@@ -153,7 +153,7 @@ Extender la funcionalidad de los objetos se puede hacer de forma estática en nu
 * Este patrón no evita que los clientes usen las clases internas del subsistema, si es que es necesario.
 * Es importante mencionar que el objeto *Facade* debe ser extremadamente simple. **No** debe convertirse en un **objeto "dios".**
 
-**Aplicación:** Usamos el patrón [Facade...](https://github.com/LuisBurgos/design-patterns/tree/master/src/facade/pattern)
+**Aplicación:** Usamos el patrón [Facade...](https://github.com/JuanPardoPrdo/software-design-patterns/tree/master/src/facade/pattern)
 * Cuando queremos encapsular un subsistema complejo con una interface más simple.
 * Para crear una interface simplificada que ejecuta muchas acciones "detŕas del escenario".
 * Existen muchas dependencias entre clientes y la implementación de clases de una abstracción. Se introduce el facade para desacoplar el subsistema de los clientes y otros subsistemas.
@@ -161,8 +161,8 @@ Extender la funcionalidad de los objetos se puede hacer de forma estática en nu
 * Para definir un punto de entrada a cada nivel del subsistema.
 
 **Ejemplos:**
-* [Banco](https://github.com/LuisBurgos/design-patterns/tree/master/src/facade/examples/bank)
-* [Computadora](https://github.com/LuisBurgos/design-patterns/tree/master/src/facade/examples/computer)
+* [Banco](https://github.com/JuanPardoPrdo/software-design-patterns/tree/master/src/facade/examples/bank)
+* [Computadora](https://github.com/JuanPardoPrdo/software-design-patterns/tree/master/src/facade/examples/computer)
 
 
 ## <a name="template">Template Method</a> [&#8593;](#lista-de-patrones)

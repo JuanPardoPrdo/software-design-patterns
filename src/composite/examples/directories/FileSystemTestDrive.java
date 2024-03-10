@@ -24,7 +24,7 @@ public class FileSystemTestDrive {
         opt.add(new SimpleFile("idea"));
         opt.add(new SimpleFile("spotify"));
 
-        home.add(new SimpleFile("luisburgos"));
+        home.add(new SimpleFile("JuanPardoPrdo"));
 
         FileSystem fileSystem = new FileSystem(root);
         fileSystem.printFiles();
