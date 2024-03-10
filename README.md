@@ -50,7 +50,7 @@ En Java tenemos acceso a la clase Observer mediante [java.util.Observer](http://
 
 **Ejemplos:**
 
-El ejemplo de Subasta presenta una variante distinta de muchas fuentes en Internet de este patrón, usaremos una clase *Evento* para controlar los sucesos a los que los *Observers* responderan.
+En este ejemplo usaremos una clase *Evento* para controlar los sucesos a los que los *Observers* responderan.
 
 * [Subasta](https://github.com/JuanPardoPrdo/software-design-patterns/tree/master/src/observer/examples/auction)
 
@@ -68,7 +68,6 @@ Crear objetos en una clase usando un método factory es más flexible que crear 
 **Ejemplos:**
 
 * [Carros](https://github.com/JuanPardoPrdo/software-design-patterns/tree/master/src/factory/examples/cars)
-* [Naves](https://github.com/JuanPardoPrdo/software-design-patterns/tree/master/src/factory/examples/ships)
 
 ## <a name="abstract-factory">Abstract Factory</a> [&#8593;](#lista-de-patrones)
 
@@ -84,7 +83,6 @@ Es una jerarquía que encapsula muchas *familias* posibles y la creación de un 
 
 **Ejemplos:**
 
-* [Ovnis](https://github.com/JuanPardoPrdo/software-design-patterns/tree/master/src/abstractfactory/examples/ufo)
 * [El Reino](https://github.com/JuanPardoPrdo/software-design-patterns/tree/master/src/abstractfactory/examples/kingdom)
 
 ## <a name="composite">Composite</a> [&#8593;](#lista-de-patrones)
@@ -102,8 +100,6 @@ individual.
 
 **Ejemplos:**
 * [Menu](https://github.com/JuanPardoPrdo/software-design-patterns/tree/master/src/composite/examples/menu)
-* [Sistema de Archivos](https://github.com/JuanPardoPrdo/software-design-patterns/tree/master/src/composite/examples/directories)
-* [Cartas](https://github.com/iluwatar/java-design-patterns/tree/master/composite/src/main/java/com/iluwatar/composite) (Externo).
 
 
 ## <a name="builder">Builder</a> [&#8593;](#lista-de-patrones)
@@ -122,10 +118,7 @@ A diferencia de otros patrones creacionales que construyen productos de una sola
 * Ocultar la creación de las partes de un objeto del *cliente*, de esta manera no existe dependencia entre el *cliente* y las partes.
 
 **Ejemplos:**
-* [Heroes](https://github.com/JuanPardoPrdo/software-design-patterns/tree/master/src/builder/examples/heroes) (basado en el siguiente [proyecto](https://github.com/iluwatar/java-design-patterns/tree/master/builder/src/main/java/com/iluwatar/builder))
-* [Pizza](https://github.com/JuanPardoPrdo/software-design-patterns/tree/master/src/builder/examples/pizza)
 * [Robots](https://github.com/JuanPardoPrdo/software-design-patterns/tree/master/src/builder/examples/robots)
-* [Comida rápida](https://github.com/JuanPardoPrdo/software-design-patterns/tree/master/src/builder/examples/fastfood)
 
 
 ## <a name="decorator">Decorator</a> [&#8593;](#lista-de-patrones)
@@ -162,7 +155,6 @@ Extender la funcionalidad de los objetos se puede hacer de forma estática en nu
 
 **Ejemplos:**
 * [Banco](https://github.com/JuanPardoPrdo/software-design-patterns/tree/master/src/facade/examples/bank)
-* [Computadora](https://github.com/JuanPardoPrdo/software-design-patterns/tree/master/src/facade/examples/computer)
 
 
 ## <a name="template">Template Method</a> [&#8593;](#lista-de-patrones)
@@ -179,8 +171,6 @@ Permite redefinir ciertos pasos seguros de un algoritmo sin cambiar la estructur
 **Ejemplos:**
 * [Order Managing](https://github.com/peterm85/design-patterns/tree/master/src/template/examples/ordermanaging)
 
-**Referencia:** [https://www.geeksforgeeks.org/template-method-design-pattern/](https://www.geeksforgeeks.org/template-method-design-pattern/)
-
 ## <a name="iterator">Iterator</a> [&#8593;](#lista-de-patrones)
 
 **Propósito:** Define una interfaz que declara los métodos necesarios para acceder secuencialmente a un grupo de objetos de una colección.
@@ -194,6 +184,3 @@ Primero(), Siguiente(), HayMas() y ElementoActual().
 
 **Ejemplos:**
 * [Vectors](https://github.com/peterm85/design-patterns/tree/master/src/iterator/examples/vectors)
-* [Notifications](https://github.com/peterm85/design-patterns/tree/master/src/iterator/examples/notifications)
-
-**Referencia:** [https://www.geeksforgeeks.org/iterator-pattern/](https://www.geeksforgeeks.org/iterator-pattern/)
