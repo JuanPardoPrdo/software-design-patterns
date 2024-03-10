@@ -1,9 +1,6 @@
 # Patrones de Diseño en Java.
 Contiene un listado de los patrones de diseño con diagramas UML y ejemplos de código en Java.
 
-
-
-
 ## Introducción.
 Los patrones de diseño son soluciones elegantes, comprobadas y estándares a problemas comunes en el desarrollo de software que permiten generar un vocabulario común a la hora de colaborar con otras personas.
 
@@ -35,29 +32,6 @@ Se encargan de la comunicación efectiva y la asignación de responsabilidades e
 * [Template method](#template)
 * [Iterator](#iterator)
 
-## <a name="observer">Observer</a> [&#8593;](#lista-de-patrones)
-
-**Propósito:** Definir una dependencia de uno a muchos entre los objetos de manera que cuando un objeto cambia de estado, todos los que dependen de él son notificados y se actualizan automáticamente.
-
-Los *Observers* se registran con el *Subject*  a medida que se crean. Siempre que el Subject cambie, difundirá a todos los Observers registrados que ha cambiado, y cada Observer consulta al Subject que supervisa para obtener el cambio de estado que se haya generado.
-
-En Java tenemos acceso a la clase Observer mediante [java.util.Observer](http://docs.oracle.com/javase/8/docs/api/java/util/Observer.html)
-
-**Aplicación:** Usamos el patrón Observer cuando...
-* Un cambio en un objeto requiere cambiar los demás, pero no sabemos cuántos objetos hay que cambiar.
-* Configurar de manera dinámica un componente de la Vista, envés de estáticamente durante el tiempo de compilación.
-* Un objeto debe ser capaz de notificar a otros objetos sin que estos objetos estén fuertemente acoplados.
-
-**Estructura**
-
-![UML Patrón Observer](https://github.com/JuanPardoPrdo/software-design-patterns/blob/main/src/observer/pattern/structure.png)
-
-**Ejemplos:**
-
-En este ejemplo usaremos una clase *Evento* para controlar los sucesos a los que los *Observers* responderan.
-
-* [Subasta](https://github.com/JuanPardoPrdo/software-design-patterns/tree/main/src/observer/examples/auction)
-
 ## <a name="factory">Factory o Factory Method</a> [&#8593;](#lista-de-patrones)
 
 **Propósito:** Definir una interface para crear un objeto, dejando a las subclases decidir de que tipo de clase se realizará la instancia en tiempo de ejecución. Reducir el uso del operador *new*.
@@ -76,6 +50,7 @@ Crear objetos en una clase usando un método factory es más flexible que crear 
 **Ejemplos:**
 
 * [Carros](https://github.com/JuanPardoPrdo/software-design-patterns/tree/main/src/factory/examples/cars)
+
 
 ## <a name="abstract-factory">Abstract Factory</a> [&#8593;](#lista-de-patrones)
 
@@ -96,26 +71,6 @@ Es una jerarquía que encapsula muchas *familias* posibles y la creación de un 
 **Ejemplos:**
 
 * [El Reino](https://github.com/JuanPardoPrdo/software-design-patterns/tree/main/src/abstractfactory/examples/kingdom)
-
-## <a name="composite">Composite</a> [&#8593;](#lista-de-patrones)
-
-**Propósito:** Componer objetos en estructuras de árbol que representan jerarquías de un *todo* y sus *partes.* El Composite provee a los *clientes* un mismo trato para todos los objetos que forman la jerarquía.
-
-Pensemos en nuestro sistema de archivos, este contiene *directorios* con *archivos* y a su vez estos *archivos* pueden ser otros *directorios* que contenga más *archivos*, y así sucesivamente. Lo anterior puede ser representado facilmente con el patrón Composite.
-
-**Aplicación:** Usamos el patrón Composite...
-* Cuando queremos representar jerarquías de objetos
-compuestas por un todo y sus partes.
-* Se quiere que los *clientes* ignoren la diferencia
-entre la composición de objetos y su uso
-individual.
-
-**Estructura**
-
-![UML Patrón Composite](https://github.com/JuanPardoPrdo/software-design-patterns/blob/main/src/composite/pattern/structure.png)
-
-**Ejemplos:**
-* [Menu](https://github.com/JuanPardoPrdo/software-design-patterns/tree/main/src/composite/examples/menu)
 
 
 ## <a name="builder">Builder</a> [&#8593;](#lista-de-patrones)
@@ -139,6 +94,27 @@ A diferencia de otros patrones creacionales que construyen productos de una sola
 
 **Ejemplos:**
 * [Robots](https://github.com/JuanPardoPrdo/software-design-patterns/tree/main/src/builder/examples/robots)
+
+
+## <a name="composite">Composite</a> [&#8593;](#lista-de-patrones)
+
+**Propósito:** Componer objetos en estructuras de árbol que representan jerarquías de un *todo* y sus *partes.* El Composite provee a los *clientes* un mismo trato para todos los objetos que forman la jerarquía.
+
+Pensemos en nuestro sistema de archivos, este contiene *directorios* con *archivos* y a su vez estos *archivos* pueden ser otros *directorios* que contenga más *archivos*, y así sucesivamente. Lo anterior puede ser representado facilmente con el patrón Composite.
+
+**Aplicación:** Usamos el patrón Composite...
+* Cuando queremos representar jerarquías de objetos
+compuestas por un todo y sus partes.
+* Se quiere que los *clientes* ignoren la diferencia
+entre la composición de objetos y su uso
+individual.
+
+**Estructura**
+
+![UML Patrón Composite](https://github.com/JuanPardoPrdo/software-design-patterns/blob/main/src/composite/pattern/structure.png)
+
+**Ejemplos:**
+* [Menu](https://github.com/JuanPardoPrdo/software-design-patterns/tree/main/src/composite/examples/menu)
 
 
 ## <a name="decorator">Decorator</a> [&#8593;](#lista-de-patrones)
@@ -183,6 +159,30 @@ Extender la funcionalidad de los objetos se puede hacer de forma estática en nu
 
 **Ejemplos:**
 * [Banco](https://github.com/JuanPardoPrdo/software-design-patterns/tree/main/src/facade/examples/bank)
+
+
+## <a name="observer">Observer</a> [&#8593;](#lista-de-patrones)
+
+**Propósito:** Definir una dependencia de uno a muchos entre los objetos de manera que cuando un objeto cambia de estado, todos los que dependen de él son notificados y se actualizan automáticamente.
+
+Los *Observers* se registran con el *Subject*  a medida que se crean. Siempre que el Subject cambie, difundirá a todos los Observers registrados que ha cambiado, y cada Observer consulta al Subject que supervisa para obtener el cambio de estado que se haya generado.
+
+En Java tenemos acceso a la clase Observer mediante [java.util.Observer](http://docs.oracle.com/javase/8/docs/api/java/util/Observer.html)
+
+**Aplicación:** Usamos el patrón Observer cuando...
+* Un cambio en un objeto requiere cambiar los demás, pero no sabemos cuántos objetos hay que cambiar.
+* Configurar de manera dinámica un componente de la Vista, envés de estáticamente durante el tiempo de compilación.
+* Un objeto debe ser capaz de notificar a otros objetos sin que estos objetos estén fuertemente acoplados.
+
+**Estructura**
+
+![UML Patrón Observer](https://github.com/JuanPardoPrdo/software-design-patterns/blob/main/src/observer/pattern/structure.png)
+
+**Ejemplos:**
+
+En este ejemplo usaremos una clase *Evento* para controlar los sucesos a los que los *Observers* responderan.
+
+* [Subasta](https://github.com/JuanPardoPrdo/software-design-patterns/tree/main/src/observer/examples/auction)
 
 
 ## <a name="template">Template Method</a> [&#8593;](#lista-de-patrones)
