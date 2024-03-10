@@ -69,6 +69,10 @@ Crear objetos en una clase usando un método factory es más flexible que crear 
 * Cuando un método regresa una de muchas posibles clases que comparten carecterísticas comunes a través de una superclase.
 * Para encapsular la creación de objetos.
 
+**Estructura**
+
+![UML Patrón Factory](https://github.com/JuanPardoPrdo/software-design-patterns/blob/main/src/factory/pattern/structure.png)
+
 **Ejemplos:**
 
 * [Carros](https://github.com/JuanPardoPrdo/software-design-patterns/tree/main/src/factory/examples/cars)
@@ -84,6 +88,10 @@ Es una jerarquía que encapsula muchas *familias* posibles y la creación de un 
 * Cuando tenemos muchos objetos que pueden ser cambiados o agregados durante el tiempo de ejecución.
 * Cuando queremos obtener un objeto compuesto de otros objetos, los cuales desconocemos a que clase pertenecen.
 * Para encapsular la creación de muchos objetos.
+
+**Estructura**
+
+![UML Patrón Abstract Factory](https://github.com/JuanPardoPrdo/software-design-patterns/blob/main/src/abstractfactory/pattern/structure.png)
 
 **Ejemplos:**
 
@@ -101,6 +109,10 @@ compuestas por un todo y sus partes.
 * Se quiere que los *clientes* ignoren la diferencia
 entre la composición de objetos y su uso
 individual.
+
+**Estructura**
+
+![UML Patrón Composite](https://github.com/JuanPardoPrdo/software-design-patterns/blob/main/src/composite/pattern/structure.png)
 
 **Ejemplos:**
 * [Menu](https://github.com/JuanPardoPrdo/software-design-patterns/tree/main/src/composite/examples/menu)
@@ -121,6 +133,10 @@ A diferencia de otros patrones creacionales que construyen productos de una sola
 * Que la creación de las partes de un objeto sea independiente del objeto principal.
 * Ocultar la creación de las partes de un objeto del *cliente*, de esta manera no existe dependencia entre el *cliente* y las partes.
 
+**Estructura**
+
+![UML Patrón Builder](https://github.com/JuanPardoPrdo/software-design-patterns/blob/main/src/builder/pattern/structure.png)
+
 **Ejemplos:**
 * [Robots](https://github.com/JuanPardoPrdo/software-design-patterns/tree/main/src/builder/examples/robots)
 
@@ -136,6 +152,10 @@ Extender la funcionalidad de los objetos se puede hacer de forma estática en nu
 * Cuando queremos tener las ventajas de la *Herencia* pero necesitemos añadir funcionalidad durante el tiempo de ejecución. Es más flexible que la *Herencia*,
 * Simplificar el código agregando funcionalidades usando muchas clases diferentes.
 * Evitar sobreescribir código viejo agregando, envés, código nuevo.
+
+**Estructura**
+
+![UML Patrón Decorator](https://github.com/JuanPardoPrdo/software-design-patterns/blob/main/src/decorator/pattern/structure.png)
 
 **Ejemplos:**
 * [Pizzas](https://github.com/JuanPardoPrdo/software-design-patterns/tree/main/src/decorator/examples/pizzas)
@@ -157,6 +177,10 @@ Extender la funcionalidad de los objetos se puede hacer de forma estática en nu
 * Necesitamos *desacoplar* subsistemas entre sí, haciendo que se comuniquen únicamente mediante *Facades*.
 * Para definir un punto de entrada a cada nivel del subsistema.
 
+**Estructura**
+
+![UML Patrón Facade](https://github.com/JuanPardoPrdo/software-design-patterns/blob/main/src/facade/pattern/structure.png)
+
 **Ejemplos:**
 * [Banco](https://github.com/JuanPardoPrdo/software-design-patterns/tree/main/src/facade/examples/bank)
 
@@ -172,6 +196,10 @@ Permite redefinir ciertos pasos seguros de un algoritmo sin cambiar la estructur
 * Evitar duplicación en el código: la estructura general de flujo de trabajo, está implementada una vez en el algoritmo de clase abstracta, y variaciones necesarias son implementadas en cada de las subclases.
 * Controlar en qué punto(s) la subclassing está permitida. En oposición a una sencilla sobrecarga polimórfica, donde el método de base sería enteramente reescrito, permitiendo un cambio radical en el flujo. Sólo los detalles específicos del flujo se pueden cambiar.
 
+**Estructura**
+
+![UML Patrón Template](https://github.com/JuanPardoPrdo/software-design-patterns/blob/main/src/template/pattern/structure.png)
+
 **Ejemplos:**
 * [Order Managing](https://github.com/JuanPardoPrdo/software-design-patterns/tree/main/src/template/examples/ordermanaging)
 
@@ -185,6 +213,10 @@ Primero(), Siguiente(), HayMas() y ElementoActual().
 
 **Aplicación:** Usamos el patrón Iterator cuando ...
 * Se desea acceder a los elementos de un contenedor de objetos (por ejemplo, una lista) sin exponer su representación interna.
+
+**Estructura**
+
+![UML Patrón Iterator](https://github.com/JuanPardoPrdo/software-design-patterns/blob/main/src/iterator/pattern/structure.png)
 
 **Ejemplos:**
 * [Vectors](https://github.com/JuanPardoPrdo/software-design-patterns/tree/main/src/iterator/examples/vectors)
