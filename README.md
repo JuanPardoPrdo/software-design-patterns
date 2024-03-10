@@ -123,7 +123,7 @@ Extender la funcionalidad de los objetos se puede hacer de forma estática en nu
 
 **Propósito:** Adjuntar responsabilidades adicionales a un objeto de forma **dinámica**. Los *decoradores* proporcionan una alternativa flexible para ampliar la funcionalidad.
 
-**Aplicación:** Usamos el patrón [Decorator...](https://github.com/JuanPardoPrdo/software-design-patterns/tree/main/src/decorator/pattern)
+**Aplicación:** Usamos el patrón Decorator...
 * Cuando necesitamos añadir o eliminar dinámicamente las responsabilidades a un objeto, sin afectar a otros objetos.
 * Cuando queremos tener las ventajas de la *Herencia* pero necesitemos añadir funcionalidad durante el tiempo de ejecución. Es más flexible que la *Herencia*,
 * Simplificar el código agregando funcionalidades usando muchas clases diferentes.
@@ -146,7 +146,7 @@ Extender la funcionalidad de los objetos se puede hacer de forma estática en nu
 * Este patrón no evita que los clientes usen las clases internas del subsistema, si es que es necesario.
 * Es importante mencionar que el objeto *Facade* debe ser extremadamente simple. **No** debe convertirse en un **objeto "dios".**
 
-**Aplicación:** Usamos el patrón [Facade...](https://github.com/JuanPardoPrdo/software-design-patterns/tree/main/src/facade/pattern)
+**Aplicación:** Usamos el patrón Facade...
 * Cuando queremos encapsular un subsistema complejo con una interface más simple.
 * Para crear una interface simplificada que ejecuta muchas acciones "detŕas del escenario".
 * Existen muchas dependencias entre clientes y la implementación de clases de una abstracción. Se introduce el facade para desacoplar el subsistema de los clientes y otros subsistemas.
@@ -191,7 +191,7 @@ En este ejemplo usaremos una clase *Evento* para controlar los sucesos a los que
 
 Permite redefinir ciertos pasos seguros de un algoritmo sin cambiar la estructura del algoritmo.
 
-**Aplicación:** Usamos el patrón Template Method cuando ...
+**Aplicación:** Usamos el patrón Template Method cuando...
 * Se desea dejar que las subclases que se implementan (a través del método primordial) tengan un comportamiento que puede variar.
 * Evitar duplicación en el código: la estructura general de flujo de trabajo, está implementada una vez en el algoritmo de clase abstracta, y variaciones necesarias son implementadas en cada de las subclases.
 * Controlar en qué punto(s) la subclassing está permitida. En oposición a una sencilla sobrecarga polimórfica, donde el método de base sería enteramente reescrito, permitiendo un cambio radical en el flujo. Sólo los detalles específicos del flujo se pueden cambiar.
@@ -211,7 +211,7 @@ Algunos de los métodos que podemos definir en la interfaz Iterador son:
 
 Primero(), Siguiente(), HayMas() y ElementoActual().
 
-**Aplicación:** Usamos el patrón Iterator cuando ...
+**Aplicación:** Usamos el patrón Iterator cuando...
 * Se desea acceder a los elementos de un contenedor de objetos (por ejemplo, una lista) sin exponer su representación interna.
 
 **Estructura**
