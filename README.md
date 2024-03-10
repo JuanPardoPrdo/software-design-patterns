@@ -55,7 +55,7 @@ En Java tenemos acceso a la clase Observer mediante [java.util.Observer](http://
 
 En este ejemplo usaremos una clase *Evento* para controlar los sucesos a los que los *Observers* responderan.
 
-* [Subasta](https://github.com/JuanPardoPrdo/software-design-patterns/tree/master/src/observer/examples/auction)
+* [Subasta](https://github.com/JuanPardoPrdo/software-design-patterns/tree/main/src/observer/examples/auction)
 
 ## <a name="factory">Factory o Factory Method</a> [&#8593;](#lista-de-patrones)
 
@@ -70,7 +70,7 @@ Crear objetos en una clase usando un método factory es más flexible que crear 
 
 **Ejemplos:**
 
-* [Carros](https://github.com/JuanPardoPrdo/software-design-patterns/tree/master/src/factory/examples/cars)
+* [Carros](https://github.com/JuanPardoPrdo/software-design-patterns/tree/main/src/factory/examples/cars)
 
 ## <a name="abstract-factory">Abstract Factory</a> [&#8593;](#lista-de-patrones)
 
@@ -86,7 +86,7 @@ Es una jerarquía que encapsula muchas *familias* posibles y la creación de un 
 
 **Ejemplos:**
 
-* [El Reino](https://github.com/JuanPardoPrdo/software-design-patterns/tree/master/src/abstractfactory/examples/kingdom)
+* [El Reino](https://github.com/JuanPardoPrdo/software-design-patterns/tree/main/src/abstractfactory/examples/kingdom)
 
 ## <a name="composite">Composite</a> [&#8593;](#lista-de-patrones)
 
@@ -102,7 +102,7 @@ entre la composición de objetos y su uso
 individual.
 
 **Ejemplos:**
-* [Menu](https://github.com/JuanPardoPrdo/software-design-patterns/tree/master/src/composite/examples/menu)
+* [Menu](https://github.com/JuanPardoPrdo/software-design-patterns/tree/main/src/composite/examples/menu)
 
 
 ## <a name="builder">Builder</a> [&#8593;](#lista-de-patrones)
@@ -121,7 +121,7 @@ A diferencia de otros patrones creacionales que construyen productos de una sola
 * Ocultar la creación de las partes de un objeto del *cliente*, de esta manera no existe dependencia entre el *cliente* y las partes.
 
 **Ejemplos:**
-* [Robots](https://github.com/JuanPardoPrdo/software-design-patterns/tree/master/src/builder/examples/robots)
+* [Robots](https://github.com/JuanPardoPrdo/software-design-patterns/tree/main/src/builder/examples/robots)
 
 
 ## <a name="decorator">Decorator</a> [&#8593;](#lista-de-patrones)
@@ -130,14 +130,14 @@ Extender la funcionalidad de los objetos se puede hacer de forma estática en nu
 
 **Propósito:** Adjuntar responsabilidades adicionales a un objeto de forma **dinámica**. Los *decoradores* proporcionan una alternativa flexible para ampliar la funcionalidad.
 
-**Aplicación:** Usamos el patrón [Decorator...](https://github.com/JuanPardoPrdo/software-design-patterns/tree/master/src/decorator/pattern)
+**Aplicación:** Usamos el patrón [Decorator...](https://github.com/JuanPardoPrdo/software-design-patterns/tree/main/src/decorator/pattern)
 * Cuando necesitamos añadir o eliminar dinámicamente las responsabilidades a un objeto, sin afectar a otros objetos.
 * Cuando queremos tener las ventajas de la *Herencia* pero necesitemos añadir funcionalidad durante el tiempo de ejecución. Es más flexible que la *Herencia*,
 * Simplificar el código agregando funcionalidades usando muchas clases diferentes.
 * Evitar sobreescribir código viejo agregando, envés, código nuevo.
 
 **Ejemplos:**
-* [Pizzas](https://github.com/JuanPardoPrdo/software-design-patterns/tree/master/src/decorator/examples/pizzas)
+* [Pizzas](https://github.com/JuanPardoPrdo/software-design-patterns/tree/main/src/decorator/examples/pizzas)
 
 ## <a name="facade">Facade</a> [&#8593;](#lista-de-patrones)
 
@@ -149,7 +149,7 @@ Extender la funcionalidad de los objetos se puede hacer de forma estática en nu
 * Este patrón no evita que los clientes usen las clases internas del subsistema, si es que es necesario.
 * Es importante mencionar que el objeto *Facade* debe ser extremadamente simple. **No** debe convertirse en un **objeto "dios".**
 
-**Aplicación:** Usamos el patrón [Facade...](https://github.com/JuanPardoPrdo/software-design-patterns/tree/master/src/facade/pattern)
+**Aplicación:** Usamos el patrón [Facade...](https://github.com/JuanPardoPrdo/software-design-patterns/tree/main/src/facade/pattern)
 * Cuando queremos encapsular un subsistema complejo con una interface más simple.
 * Para crear una interface simplificada que ejecuta muchas acciones "detŕas del escenario".
 * Existen muchas dependencias entre clientes y la implementación de clases de una abstracción. Se introduce el facade para desacoplar el subsistema de los clientes y otros subsistemas.
@@ -157,7 +157,7 @@ Extender la funcionalidad de los objetos se puede hacer de forma estática en nu
 * Para definir un punto de entrada a cada nivel del subsistema.
 
 **Ejemplos:**
-* [Banco](https://github.com/JuanPardoPrdo/software-design-patterns/tree/master/src/facade/examples/bank)
+* [Banco](https://github.com/JuanPardoPrdo/software-design-patterns/tree/main/src/facade/examples/bank)
 
 
 ## <a name="template">Template Method</a> [&#8593;](#lista-de-patrones)
@@ -172,7 +172,7 @@ Permite redefinir ciertos pasos seguros de un algoritmo sin cambiar la estructur
 * Controlar en qué punto(s) la subclassing está permitida. En oposición a una sencilla sobrecarga polimórfica, donde el método de base sería enteramente reescrito, permitiendo un cambio radical en el flujo. Sólo los detalles específicos del flujo se pueden cambiar.
 
 **Ejemplos:**
-* [Order Managing](https://github.com/peterm85/design-patterns/tree/master/src/template/examples/ordermanaging)
+* [Order Managing](https://github.com/JuanPardoPrdo/software-design-patterns/tree/main/src/template/examples/ordermanaging)
 
 ## <a name="iterator">Iterator</a> [&#8593;](#lista-de-patrones)
 
@@ -186,4 +186,4 @@ Primero(), Siguiente(), HayMas() y ElementoActual().
 * Se desea acceder a los elementos de un contenedor de objetos (por ejemplo, una lista) sin exponer su representación interna.
 
 **Ejemplos:**
-* [Vectors](https://github.com/peterm85/design-patterns/tree/master/src/iterator/examples/vectors)
+* [Vectors](https://github.com/JuanPardoPrdo/software-design-patterns/tree/main/src/iterator/examples/vectors)
