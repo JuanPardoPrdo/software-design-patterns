@@ -52,6 +52,7 @@ Crear objetos en una clase usando un método factory es más flexible que crear 
 * [Carros](https://github.com/JuanPardoPrdo/software-design-patterns/tree/main/src/factory/examples/cars)
 
 **UML**
+
 ![UML Patrón Factory](https://github.com/JuanPardoPrdo/software-design-patterns/blob/main/src/factory/examples/structure.png)
 
 
@@ -76,6 +77,7 @@ Es una jerarquía que encapsula muchas *familias* posibles y la creación de un 
 * [El Reino](https://github.com/JuanPardoPrdo/software-design-patterns/tree/main/src/abstractfactory/examples/kingdom)
 
 **UML**
+
 ![UML Abstract Factory](https://github.com/JuanPardoPrdo/software-design-patterns/blob/main/src/abstractfactory/examples/structure.png)
 
 ## <a name="builder">Builder</a> [&#8593;](#lista-de-patrones)
@@ -101,6 +103,7 @@ A diferencia de otros patrones creacionales que construyen productos de una sola
 * [Robots](https://github.com/JuanPardoPrdo/software-design-patterns/tree/main/src/builder/examples/robots)
 
 **UML**
+
 ![UML Builder](https://github.com/JuanPardoPrdo/software-design-patterns/blob/main/src/builder/examples/structure.png)
 
 
@@ -125,6 +128,7 @@ individual.
 * [Menu](https://github.com/JuanPardoPrdo/software-design-patterns/tree/main/src/composite/examples/menu)
 
 **UML**
+
 ![UML Composite](https://github.com/JuanPardoPrdo/software-design-patterns/blob/main/src/composite/examples/structure.png)
 
 
@@ -148,6 +152,7 @@ Extender la funcionalidad de los objetos se puede hacer de forma estática en nu
 * [Pizzas](https://github.com/JuanPardoPrdo/software-design-patterns/tree/main/src/decorator/examples/pizzas)
 
 **UML**
+
 ![UML Decorator](https://github.com/JuanPardoPrdo/software-design-patterns/blob/main/src/decorator/examples/structure.png)
 
 ## <a name="facade">Facade</a> [&#8593;](#lista-de-patrones)
@@ -175,6 +180,7 @@ Extender la funcionalidad de los objetos se puede hacer de forma estática en nu
 * [Banco](https://github.com/JuanPardoPrdo/software-design-patterns/tree/main/src/facade/examples/bank)
 
 **UML**
+
 ![UML Facade](https://github.com/JuanPardoPrdo/software-design-patterns/blob/main/src/facade/examples/structure.png)
 
 
@@ -202,6 +208,7 @@ En este ejemplo usaremos una clase *Evento* para controlar los sucesos a los que
 * [Subasta](https://github.com/JuanPardoPrdo/software-design-patterns/tree/main/src/observer/examples/auction)
 
 **UML**
+
 ![UML Observer](https://github.com/JuanPardoPrdo/software-design-patterns/blob/main/src/observer/examples/structure.png)
 
 
@@ -224,6 +231,7 @@ Permite redefinir ciertos pasos seguros de un algoritmo sin cambiar la estructur
 * [Order Managing](https://github.com/JuanPardoPrdo/software-design-patterns/tree/main/src/template/examples/ordermanaging)
 
 **UML**
+
 ![UML Template](https://github.com/JuanPardoPrdo/software-design-patterns/blob/main/src/template/examples/structure.png)
 
 ## <a name="iterator">Iterator</a> [&#8593;](#lista-de-patrones)
@@ -245,4 +253,5 @@ Primero(), Siguiente(), HayMas() y ElementoActual().
 * [Vectors](https://github.com/JuanPardoPrdo/software-design-patterns/tree/main/src/iterator/examples/vectors)
 
 **UML**
+
 ![UML Iterator](https://github.com/JuanPardoPrdo/software-design-patterns/blob/main/src/iterator/examples/structure.png)
